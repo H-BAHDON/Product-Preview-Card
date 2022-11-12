@@ -1,3 +1,58 @@
-body {
-  background-color: green;
+  body {
+    font-sze: 14px;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 3% 5%; */
+  }
+
+  h2 {
+    padding: 2% 0%;
+    font-weight: bold;
+  }
+
+  h6 {
+    font-size: 10px;
+    padding: 2% 0%;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+  }
+
+  p {
+    padding: 2% 0%;
+  }
+
+  strong {
+    color: green;
+    padding: 4%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .card-content {
+    margin: 4% 28%;
+  }
+
+  .col-content {
+    width: 40%;
+  }
+
+  @media only screen and (max-width: 2560px) {
+    .card-content {
+    margin: 50% auto;
 }
+
+  }
+  @media only screen and (max-width: 1440px) {
+    .card-content {
+    margin: 50% auto;
+}
+
+  }
+  @media only screen and (max-width: 1024px) {
+    .card-content {
+      margin: 50% auto;
+}
+
+  }
