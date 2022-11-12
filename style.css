@@ -30,29 +30,35 @@
     width: 100%;
   }
 
+  .preview {
+    align-items: center;
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+  }
+
   .card-content {
-    margin: 4% 28%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px rgb(124 124 124 / 10%);
+    display: flex;
+    width: 570px;
   }
 
-  .col-content {
-    width: 40%;
-  }
-
-  @media only screen and (max-width: 2560px) {
+  /* @media only screen and (max-width: 2560px) {
     .card-content {
-    margin: 50% auto;
+    margin: 4% 34%;
 }
 
   }
   @media only screen and (max-width: 1440px) {
     .card-content {
-    margin: 50% auto;
+    margin: 4% 27%;
 }
 
   }
   @media only screen and (max-width: 1024px) {
     .card-content {
-      margin: 50% auto;
+      margin: 4% 34%;
 }
 
-  }
+  } */
